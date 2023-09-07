@@ -1,0 +1,21 @@
+.Footer-section {
+  background-color: #000;
+  padding: 6rem;
+  display: grid;
+  justify-items: center;
+}
+.social-media-icons {
+  margin-bottom: 3rem;
+}
+
+.Footer-section p {
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+.Footer-section a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 0.8rem;
+  font-size: 1.8rem;
+}

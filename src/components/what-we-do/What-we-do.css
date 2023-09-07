@@ -1,0 +1,30 @@
+.what-we-do {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  margin: 8rem 2rem 0 2rem;
+  /* width: 95%; */
+  align-items: center;
+}
+
+.what-we-do-h h4 {
+  font-family: oswald,sans-serif;
+  font-size: 2.4rem;
+  line-height: 1.4;
+  letter-spacing: 0.4px;
+  word-break: keep-all;
+}
+
+.what-we-do-icon {
+  /* vertical-align: middle; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 3rem;
+}
+
+.what-we-do-icon p {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+

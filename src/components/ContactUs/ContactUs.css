@@ -1,0 +1,106 @@
+.Contact-section {
+
+  background: #fecb1c;
+}
+
+.Contact-container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 10rem 0;
+  position: relative;
+}
+
+
+.title-icon {
+  position: absolute;
+  left: 25rem;
+  bottom: 56rem;
+  z-index: 100;
+  opacity: 15%;
+  /* right: 10px; */
+}
+
+.Contact-title {
+  font-family: oswald, sans-serif;
+  font-size: 10rem;
+  text-align: center;
+  z-index: 200;
+  text-transform: uppercase;
+  color: #000;
+}
+
+
+.contact-description {
+  text-align: center;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+
+  line-height: 1.8;
+}
+
+.contact-dec {
+  font-size: 2rem;
+  margin: 6rem 15rem 4rem 15rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.contact-mail {
+  margin-top: 10rem;
+}
+
+.contact-mail a {
+  font-family: oswald, sans-serif;
+  text-decoration: none;
+  color: #000;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.contact-mail:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem;
+}
+
+.message-icon {
+  display: grid;
+  justify-content: center;
+  height: 6.4rem;
+  width: 6.4rem;
+  margin-bottom: 2rem;
+
+}
+
+/* .tel {
+  display: inline-block;
+} */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  column-gap: 4rem;
+
+}
+
+.tel {
+  text-decoration: none;
+  color: #000;
+  font-style: italic;
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+
+.location p {
+  font-style: italic;
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+

@@ -1,0 +1,68 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  /* min-width: 10rem; */
+  min-height: 5rem;
+  color: #fff;
+  padding: 2rem;
+}
+
+.studio-nav {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.studio-nav-logo {
+  width: 4.6rem;
+  height: 4.4rem;
+  margin-left: 5rem;
+}
+
+.studio-nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  align-items: center;
+}
+
+.studio-nav ul li {
+  list-style: none;
+}
+
+.studio-nav ul li a {
+  text-decoration-line: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.phone .btn:link,
+.phone .btn:visited {
+  font-weight: 700;
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 1.6rem;
+  text-decoration: none;
+  background-color: #fecb1c;
+  padding: 0.6rem 1rem;
+  background: #fecb1c,linear-gradient(transparent 0%, transparent 100%);
+  border: 1px solid transparent;
+  border-radius: 0.3rem;
+  transition:  0.2s ease-in-out;
+}
+
+.phone .btn:hover {
+  background: linear-gradient(transparent 0%, #000 100%);
+  /* Fade in from the top */
+  border: 1px solid #fecb1c;
+}
+.phone .btn:active {
+  background: linear-gradient(transparent 0%, #000 100%);
+  /* Keep the same style when active */
+  transition: none;
+  /* Remove transition on active state */
+}
+

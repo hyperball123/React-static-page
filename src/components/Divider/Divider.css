@@ -1,0 +1,10 @@
+.row {
+  height: 10px;
+  margin: 0 5rem;
+  padding: 10px;
+}
+
+.darkColor {
+  background-color: #000000;
+  height: 1px;
+}
